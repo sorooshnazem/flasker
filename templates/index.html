@@ -1,0 +1,10 @@
+<h1>Hello World from {{first_name}}</h1>
+<p>My surname is {{family_name|safe}}</p>
+<p>This is my first webpage</p>
+
+<h2>List of pizza:</h2>
+{% for topping in favorite_pizza%}
+{{topping}} <br>
+{% endfor %}
+<br><br>
+{{favorite_pizza.1}}
